@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+  <table>
+    <tr>
+           <td><h1><i>LuxuryCars</i></h1></td></font>
+           
+           <td width="2%"></td>
+           <td> <img src="logo.png.jpg" width="100"></td>
+           <td width="20%" align="center"><a href="Inicio_P2.html">Inicio</a></td>
+           <td width="20%" align="left"><a href="tabal2.html">Servicios</a></td>
+           <td width="20%" align="left"><a href="Apartamento.html">Contacto</a></td>
+           <td width="20%" align="left"><a href="CasaRural.html">Nuestros coches</a></td>
+           <td width="20%" align="left"><a href="">Nosotros</a></td>
+         </tr>
+   </table>
+   <br>
+<br>
+<br>
+<br>
+<br>
+   <h2><i>Catálogo</i></h2>
+<img src="roewe.png" style="width : 300px ;height : 190px">
+<class="img-responsive" width="90" height="109" align="left"> Roewe vision R: 
+  Coche eléctrico con paneles solares creado en china y con un sistema de reconocimiento facial que se encontrará en los pilares B.
+  <br>
+  <br>
+  <br>
+  <img src="mclaren.png" style="width : 380px ;height : 190px">
+  <class="img-responsive" width="90" height="109" align="left"> McLaren 650s G3: Coche diesel superdeportivo de 675cv, con un consumo de 11,7l/100km.
+    <br>
+    <br>
+    <br>
+    <img src="cupra.png" style="width : 400px ;height : 190px">
+    <class="img-responsive" width="90" height="109" align="left"> Seat Cupra GT: Coche diesel de tracción 4x4, con una potencia de 300cv y una gran respuesta tras el volante.
+
+<br>
+<br>
+<br>
+    Contacto: luxurycars@gmail.com
+    <br>
+    Teléfono: 952375494
+</html>

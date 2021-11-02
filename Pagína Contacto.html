@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es-ES">
+    <head>
+        <meta charset="utf-8">
+        <title>Pagína Contacto</title>
+        <meta name="author" content="Jorge Aguilar">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <!--Cuerpo de la pagina-->
+    <body>
+        <table>
+            <tr>
+                <td>
+                    <h1>
+                        <i>LuxuryCars</i>
+                    </h1>
+                </td>
+                <td width="2%"></td>
+                <td> <img src="Imagenes/luxury-cars-logo_20448-238.jpg" width="100"></td>
+                <td><a href="pginicio.html">Inicio</a></td>
+                <td><a href="Pagina de Servicios de la empresa.Antonio josé.html">Servicios</a></td>
+                <td><a href="Pagína Contacto.html">Contacto</a></td>
+                <td><a href="Página Daniel About Us1.html">Nosotros</a></td>
+            </tr>
+        </table>
+        <hr>
+        <!--Introduccion a la pagina-->
+        <h2>
+            Pagína De Contacto
+        </h2>
+        <p>Bienvenidos a esta Pagína de Contacto donde atraves de un formulario podras ponerte en contacto con uno de nuestros trabajadores,<br>
+            con el que podras resolver dudas que tengas con alguno de nuestros productos. Tambien podras solicitar la prueba de cualquier <br>
+            vehiculo u otro producto del que disponemos.
+        </p>
+        <!--Formulario de la pagina-->
+        <h3>
+            Formulario
+        </h3>
+        <form action=>
+            <b>Sexo:</b>
+            <input type="radio" id="Masculino" name="sex" value="Masculino">
+            <label for="Masculino">Masculino</label>
+            <input type="radio" id="Femenino" name="sex" value="Femenino">
+            <label for="Femenino">Femenino</label>
+            <br>
+            <br>
+            <b>Nombre:</b>
+            <br>
+            <input type="text" placeholder="Nombre" maxlength="20" required>
+            <br>
+            <br>
+            <b>Teléfono:</b>
+            <br>
+            <input type="tel" placeholder="000-000-000" maxlength="12" step="3">
+            <br>
+            <br>
+            <b>Email:</b>
+            <br>
+            <input type="email" placeholder="aaaa@aaa.aa" maxlength="40" required>
+            <br>
+            <br>
+            <b>Producto:</b>
+            <br>
+            <select name="Producto_que_nos_interesa">
+                <option value="Consulta">Consulta</option>
+                <option value="Probar producto">Probar producto</option>
+                <option value="Deportivos">Deportivos</option>
+                <option value="Berlinas">Berlinas</option>
+                <option value="Furgonetas">Furgonetas</option>
+                <option value="Descapotable">Descapotable</option>
+                <option value="Venta de vehiculo">Venta de vehiculo</option>
+                <option value="Compra de piezas de recambio">Compra de piezas de recambio</option>
+                <option value="Tasación de vehiculo">Tasación de vehiculo</option>
+            </select>   
+            <br>
+            <br>
+            <b>Dudas o Preguntas:</b>
+            <br>
+            <textarea name="mensaje" rows="15" cols="60">
+            </textarea>
+            <br>
+            <br>
+            <input type="checkbox" checked id="Politica" name="Politica" value="Politica">
+            <label for="Politica">Aceptar los términos</label>
+            <br>
+            <br>
+            <input type="reset">
+            <input type="submit" value="Enviar">
+            <br>
+            <br>
+            <!--Localización de nuestra tienda-->
+            <b>Localización de la tienda</b>
+            <br>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3198.7771285781423!2d-4.462292384428944!3d36.703893180814184!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd72f75dd7c3be0f%3A0x252d9827dc2aad1!2sPalacio%20de%20Ferias%2C%2029006%20M%C3%A1laga!5e0!3m2!1ses!2ses!4v1633780722988!5m2!1ses!2ses" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </form>
+    </body>
+</html>
